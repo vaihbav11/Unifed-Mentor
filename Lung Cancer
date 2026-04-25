@@ -8,7 +8,7 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 import joblib 
 import os
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
 # 1. Load dataset
 file_path = 'dataset_med.csv'   # change this if needed
