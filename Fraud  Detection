@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report, confusion_matrix, roc_auc_sco
 from sklearn.ensemble import RandomForestClassifier
 from imblearn.over_sampling import SMOTE
 import joblib
-import os
+import os 
 
 # 1. Load the dataset
 data_path = 'data.csv'
