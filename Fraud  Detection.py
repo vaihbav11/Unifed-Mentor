@@ -12,7 +12,7 @@ import joblib
 import os 
 
 # 1. Load the dataset
-data_path = 'data.csv'
+data_path = 'data.csv' 
 data = pd.read_csv(data_path)
 print("Data loaded successfully")
 print("Shape of data:", data.shape)
